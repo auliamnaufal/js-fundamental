@@ -1,24 +1,18 @@
 //Global Scope Ex
-// const nama = "Naufal"
+const nama = "Naufal"
 
-// const printName = () => {
-// 	console.log(nama)
-// }
+const printName = () => {
+	console.log(nama)
+}
 
-// printName()
+printName()
 
 //Closure
-// function hello(nama, julukan) {
-// 	var a = "hello " + nama + ' ' + julukan;
-
-// 	return function() {
-// 		console.log(a)
-// 	}
-// }
-
-// let john = hello("John", "Si tuakng ngutang")
-// john()
-
+/**
+ * 
+ * @param {String} nama 
+ * @param {String} kelas 
+ */
 function murid(nama, kelas) {
 	var data = `Nama: ${nama} \nKelas: ${kelas}`
 
