@@ -1,5 +1,8 @@
-console.log(['he', 'fas', 'fasd']);
-console.table({
-	name: "Naufal",
-	age: 221,
-})
+//Global Scope Ex
+const nama = "Naufal"
+
+const printName = () => {
+	console.log(nama)
+}
+
+printName()
