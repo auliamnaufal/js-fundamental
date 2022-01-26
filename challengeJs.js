@@ -9,6 +9,7 @@ if (typeof (itn) == 'number') console.log("ini tipe data Number")
 if (typeof (bool) == 'boolean') console.log("ini tipe data Boolean")
 if (typeof (obj) == 'object') console.log("ini tipe data Object")
 
+
 const text = ["Hello", "assalamualaikum", "selamat datang", "Semangat!!"]
 
 text.forEach((word) => {
@@ -16,7 +17,9 @@ text.forEach((word) => {
 		console.log(word[i])
 	}
 	console.log(`panjang ${word}: ${word.length}`)
+	console.log("====================")
 })
+
 
 const rio = {
 	namaDepan: "almerio",
