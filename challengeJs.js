@@ -94,11 +94,11 @@ const rio = {
 }
 
 const dataRio = `
-data Siswa:\n
-	nama lengkap: ${rio.namaDepan} ${rio.namaBelakang}\n
-	kelas: ${rio.kelas}\n
-	kompetensi keahlian: ${rio.kompetensiKeahlian}\n
-	asal kota: ${rio.alamat.kabupaten}\n
+data Siswa:
+	nama lengkap: ${rio.namaDepan} ${rio.namaBelakang}
+	kelas: ${rio.kelas}
+	kompetensi keahlian: ${rio.kompetensiKeahlian}
+	asal kota: ${rio.alamat.kabupaten}
 	nilai: Diniyah(${rio.nilai.diniyah}), IT(${rio.nilai.it}), Bahasa Inggris(${rio.nilai.bahasaInggris})
 `
 
