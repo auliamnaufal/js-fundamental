@@ -54,12 +54,14 @@
 const str = "strijg"
 const itn = 12
 const bool = true
-const obj = {}
+const obj = null
+let undf;
 
 if (typeof (str) == 'string') console.log("ini tipe data string")
 if (typeof (itn) == 'number') console.log("ini tipe data Number")
 if (typeof (bool) == 'boolean') console.log("ini tipe data Boolean")
 if (typeof (obj) == 'object') console.log("ini tipe data Object")
+if (typeof (undf) == 'undefined') console.log("ini tipe data undefined")
 
 
 const text = ["Hello", "assalamualaikum", "selamat datang", "Semangat!!"]
