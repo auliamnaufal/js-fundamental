@@ -101,11 +101,9 @@ data Siswa:
 	asal kota: ${rio.alamat.kabupaten}
 	nilai: Diniyah(${rio.nilai.diniyah}), IT(${rio.nilai.it}), Bahasa Inggris(${rio.nilai.bahasaInggris})
 `
-
 console.log(dataRio)
 
 let nama = "john", kelas = 10, jurusan = "RPL" 
-
 console.log(`hallo nama saya ${nama}, saya berasal dari kelas ${kelas} jurusan ${jurusan}`)
 
 
