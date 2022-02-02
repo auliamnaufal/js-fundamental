@@ -44,4 +44,4 @@ console.log(inlineArrowFunction(2, 3))
 		}
  }
 
- printGenap(2, (n) => n % 2 == 0)
+ printGenap(2, genap)
