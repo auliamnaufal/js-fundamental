@@ -34,7 +34,7 @@ console.log(inlineArrowFunction(2, 3))
 	 return number % 2 == 0
  }
 
- function printGenap(isOdd, n) {
+ function printGenap(n, isOdd) {
 		
 		if (isOdd(n)) {
 			console.log(`${n} adalah bilangan genap`);
@@ -44,4 +44,4 @@ console.log(inlineArrowFunction(2, 3))
 		}
  }
 
- printGenap(genap, 2)
+ printGenap(2, (n) => n % 2 == 0)
